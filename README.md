@@ -19,15 +19,16 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
 ## Tecnologies
-Angular CLI: 1.5.0
-Node: 8.9.0
+Angular4 / Angular CLI: 1.5.0
+NodeJs: 8.9.0
 OS: win32 x64
+Visual Studio Code 1.18
 
-## bootstrap
+[bootstrap]
 npm install bootstrap@next --save 
 (https://getbootstrap.com/)
 
-## ng2-lazyload-image
+[ng2-lazyload-image]
 npm install ng2-lazyload-image --save
 (https://www.npmjs.com/package/ng2-lazyload-image)
 
