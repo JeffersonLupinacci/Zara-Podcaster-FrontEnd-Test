@@ -19,10 +19,10 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
 ## Tecnologies
-Angular4 / Angular CLI: 1.5.0
-NodeJs: 8.9.0
-OS: win32 x64
-Visual Studio Code 1.18
+`Angular4 / Angular CLI: 1.5.0`
+`NodeJs: 8.9.0`
+`OS: win32 x64`
+`Visual Studio Code 1.18`
 
 `bootstrap`
 npm install bootstrap@next --save 
