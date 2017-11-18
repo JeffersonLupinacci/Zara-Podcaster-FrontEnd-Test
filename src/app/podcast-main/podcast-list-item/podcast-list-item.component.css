@@ -1,0 +1,50 @@
+.card{
+  border: none;
+  background: #fafafa !important;
+}
+
+a{
+  margin: 0 auto !important;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+.card-podcast-box{
+  position:relative;
+  top:-50px;
+  padding-top:60px;
+  z-index: 0;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.10), 0 3px 6px rgba(0,0,0,0.15);
+  padding-bottom: 5px;
+  padding-left:10px;
+  padding-right:10px;
+  background: #fff !important;
+}
+
+.card-podcast-image{
+  position:relative;
+  margin: 0 auto !important;
+  width:100px;
+  width:100px;
+  border-radius: 50%;
+  z-index: 9998;
+}
+
+.card-podcast-title{
+  margin:0;
+  white-space: pre-wrap;
+  text-align: center;
+  color: #49494a;
+  font-size: 12px;
+  font-weight: bold;
+  text-overflow: ellipsis;
+}
+.card-podcast-author{
+  white-space: pre-wrap;
+  text-align: center;
+  color: #9d9c9e;
+  font-size: 12px;
+  text-overflow: ellipsis;
+}

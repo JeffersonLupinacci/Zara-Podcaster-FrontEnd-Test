@@ -1,0 +1,58 @@
+body{
+  margin : 0px;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #404C51;
+  background: #fafafa !important;
+}
+
+@media(min-width : 1300px){
+  .container{
+    width: 1200px;
+    margin: 0 auto;
+  }
+}
+
+.app-header {
+  margin-top:25px;
+  color:#3c7cbd;
+  border-bottom: solid 1px #e7e7e7;
+}
+
+.badge-search{
+  font-size:14px !important;
+  margin:7px;
+}
+
+.filter-row{
+  margin-top:25px;
+}
+
+.box-shadow{
+  box-shadow: 0 5px 10px rgba(0,0,0,0.19), 0 3px 3px rgba(0,0,0,0.23);
+  background: #fff;
+  padding: 20px;
+}
+.detail-default {
+  margin-top:30px;
+  font-size: 12px;
+}
+
+@media(max-width : 576px){
+  .margin-box-responsive{
+    margin:15px !important;
+  }
+}
+
+.centered-loading
+{
+  position: absolute !important;
+  margin: auto !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  z-index: 9999;
+}

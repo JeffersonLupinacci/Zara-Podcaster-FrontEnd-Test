@@ -1,0 +1,16 @@
+.margin-grid{
+  font-size: 12px;
+  margin-bottom: 25px;
+}
+
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+  background-color: #f9f9f9;
+}
+
+.table tr th {
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.table tr td {
+  border-bottom: 1px solid #f2f2f2;
+}

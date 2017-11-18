@@ -1,0 +1,23 @@
+<div class="row filter-row ">
+    <div class="col-sm-9 "><div class="well pull-right"></div></div>
+    <div class="col-sm-3 ">
+      <div class="well">
+          <div class="row">
+              <div class="col-xs-6">
+                  <span class="badge badge-primary badge-search">{{(podcaster | filter:term)?.length }}</span>
+              </div>
+              <div class="col-xs-6">
+                  <input type="text" class="form-control" placeholder="Filter podcasts..."
+                  name="term" [(ngModel)]="term" aria-label="Filter podcasts...">
+              </div>
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row" style="margin-top:30px;">
+    <div class="col-12 col-sm-4 col-md-3 col-lg-2 col-xl-2" *ngFor="let podcasterItem of podcaster | filter: term; let l = count">
+      <app-podcast-list-item [podcasterItem]="podcasterItem"></app-podcast-list-item>
+    </div>
+  </div>
+

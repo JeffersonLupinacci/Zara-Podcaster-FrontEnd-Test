@@ -1,0 +1,28 @@
+<div class="margin-grid margin-box-responsive">
+
+  <div class="row margin-grid">
+      <div class="col-12 box-shadow"><h5>Episodes: {{ podcastRSS?.tracks.length }}</h5></div>
+  </div>
+
+  <div class="row margin-grid">
+      <div class="col-12 box-shadow">
+        <table class="table table-striped table-responsive-sm">
+          <thead>
+            <tr>
+              <th scope="col">Title</th>
+              <th scope="col">Date</th>
+              <th scope="col">Duration</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let track of podcastRSS?.tracks, let l = index">
+              <th scope="row"><a routerLink="/podcast/{{ podcastRSS?.id }}/episode/{{ track?.id }}" routerLinkActive="active">{{ track.title }}</a></th>
+              <td>{{ track.pubDate | date:'dd/MM/y' }}</td>
+              <td>{{ track.duration | minuteSeconds}}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+  </div>
+</div>
+

@@ -1,0 +1,14 @@
+<div class="card card-podcast">
+    <a routerLink="/podcast/{{ podcasterItem.id }}" routerLinkActive="active">
+      <img class="card-podcast-image"
+        [lazyLoad]="podcasterItem.image"
+        [errorImage]="'assets/image-not-found-55x55.jpg'"
+        alt="{{ podcasterItem.title }}">
+    </a>
+      <div class="card-podcast-box">
+          <a routerLink="/podcast/{{ podcasterItem.id }}" routerLinkActive="active">
+            <p class="card-podcast-title">{{ podcasterItem.title }}</p>
+            <p class="card-podcast-author">{{ podcasterItem.artist  }}</p>
+          </a>
+      </div>
+  </div>

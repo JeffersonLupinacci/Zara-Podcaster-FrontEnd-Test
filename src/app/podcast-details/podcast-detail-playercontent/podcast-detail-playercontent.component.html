@@ -1,0 +1,14 @@
+<div class="margin-box-responsive" style="margin-bottom:25px;">
+  <div class="row">
+      <div class="col-12 box-shadow">
+        <h5>{{ episodeRSS?.title }}</h5>
+        <p innerHTML="{{ episodeRSS?.content }}"></p>
+        <audio controls="controls" style="width:100%">
+            <source src="{{episodeRSS?.link}}" type="{{episodeRSS?.contentType}}" />
+          Your browser does not support the audio element.
+          </audio>
+      </div>
+  </div>
+</div>
+
+

@@ -1,0 +1,16 @@
+
+  <div class="col-12 box-shadow summary-margin" style="margin-bottom:25px;">
+    <div class="summary-image">
+        <a routerLink="/podcast/{{ podcastRSS?.id }}" >
+          <img src="{{podcastApple?.artworkUrl600}}">
+        </a>
+    </div>
+    <div class="summary-block">
+      <p><strong>{{ podcastRSS?.title }}</strong></p>
+      <p>by <i>{{ podcastRSS?.author }}</i></p>
+    </div>
+    <div class="summary-block">
+      <p><strong>Description</strong></p>
+      <p><i>{{ podcastRSS?.description }}</i></p>
+    </div>
+  </div>
