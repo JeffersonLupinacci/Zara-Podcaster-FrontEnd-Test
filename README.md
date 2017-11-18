@@ -18,6 +18,7 @@ npm install ng2-lazyload-image --save
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
+## Links
 `Single Page Application Routes`
 (https://github.com/JeffersonLupinacci/Zara-Podcaster-FrontEnd-Test/blob/master/src/app/app-routing.module.ts)
 
