@@ -18,6 +18,22 @@ npm install ng2-lazyload-image --save
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
+## Single Page Application Routes
+(https://github.com/JeffersonLupinacci/Zara-Podcaster-FrontEnd-Test/blob/master/src/app/app-routing.module.ts)
+
+## Filter Pipe
+(https://github.com/JeffersonLupinacci/Zara-Podcaster-FrontEnd-Test/blob/master/src/app/podcast-main/podcast-filter-pipe.ts)
+
+## Converter Pipe
+(https://github.com/JeffersonLupinacci/Zara-Podcaster-FrontEnd-Test/blob/master/src/app/podcast-details/minutes-seconds-pipe.ts)
+
+## Loading Service, Loading Component
+(https://github.com/JeffersonLupinacci/Zara-Podcaster-FrontEnd-Test/blob/master/src/app/core/user-loading-notify.service.ts)
+(https://github.com/JeffersonLupinacci/Zara-Podcaster-FrontEnd-Test/blob/master/src/app/core/user-loading-notify.component.ts)
+
+## Classes
+(https://github.com/JeffersonLupinacci/Zara-Podcaster-FrontEnd-Test/tree/master/src/app/core/classes)
+
 ## Screen
 ![Principal](https://raw.githubusercontent.com/JeffersonLupinacci/Zara-Podcaster-FrontEnd-Test/master/printscreen/principal.jpg)
 
