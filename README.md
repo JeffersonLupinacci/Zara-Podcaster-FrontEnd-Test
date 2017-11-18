@@ -24,11 +24,11 @@ NodeJs: 8.9.0
 OS: win32 x64
 Visual Studio Code 1.18
 
-[bootstrap]
+`bootstrap`
 npm install bootstrap@next --save 
 (https://getbootstrap.com/)
 
-[ng2-lazyload-image]
+`ng2-lazyload-image`
 npm install ng2-lazyload-image --save
 (https://www.npmjs.com/package/ng2-lazyload-image)
 
